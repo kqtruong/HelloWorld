@@ -1,0 +1,176 @@
+﻿body {
+    background-image: url(VRaPPbackground.png);
+    background-repeat: no-repeat;
+    padding: 0;
+   padding-left: 0;
+   padding-bottom: 0;
+   padding-right: 0;
+   padding-top: 0;
+   margin: 0;
+   margin-top: 0;
+}
+p, img {
+    color: white;
+}
+a {
+    color:aquamarine; text-decoration; none;
+}
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial; color:aquamarine; text-decoration; none;
+    margin-left: 50px;
+
+}
+
+div {
+    mwidth: 480px;
+    margin-left: auto;
+    margin: auto;
+    padding: 0;
+   padding-left: 0;
+   padding-bottom: 0;
+   padding-right: 0;
+   padding-top: 0;
+    
+}
+/*************************8*/
+
+.wrap {
+    
+    margin: auto;
+}
+
+#navMenu {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    text-align: left;
+    
+    
+}
+
+#navMenu ul {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+#navMenu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    position: relative;
+    
+}
+
+#navMenu ul li a{
+    align-content: center;
+    text-align: left;
+    font-family: "Comis Sans MS", cursive;
+    padding-left: 10px;
+    text-decoration: none;
+    height: 30px;
+    width: 200px;
+    display: block;
+    color: greenyellow;
+}
+
+#navMenu ul ul {
+    position: absolute;
+    visibility: hidden;
+    top: 30px;
+}
+
+#navMenu ul li:hover ul {
+    visibility: visible;
+    text-decoration: underline;
+    
+}
+
+#navMenu ul li:hover a{
+    text-decoration: underline;
+    color: white;
+}
+
+#navMenu li:hover {
+    /*background: greenyellow; */
+    color: red;
+}
+
+#navMenu ul li:hover ul li a:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+
+
+
+/*************************************************/
+.header {
+    font-family: "sans-serif";
+    display: inline;
+    background-color: aquamarine;
+   
+}
+
+.header li {
+   background-color: aquamarine;
+    display: inline;
+    padding-right: 25px;
+   
+}
+
+.header ul {
+   background-color: aquamarine;
+  
+    padding-right: 25px;
+   
+}
+
+.header ul a {
+    text-decoration: none;
+    color: gray;
+}
+
+.header ul a:hover {
+    text-decoration: underline;
+    color:white;
+    background-color: black;
+}
+
+.wrap {
+    
+   
+    background: gray;
+    margin: auto;
+    /** overflow: hidden; to remove floating element collisions or by adding in a footer element */
+}
+
+.content, aside {
+   
+  
+    float: left;
+}
+
+.content {
+     
+    background: white;
+    
+}
+
+aside {
+     
+    background: gray;   
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    clear: both;
+}
+
+/**************************************/

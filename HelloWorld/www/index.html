@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!-- use style to add styling to a small project without making a whole css stylesheet-->
+        <style>
+            
+            
+            #emphasis {
+                color: red;
+            }
+            
+            .emphasis {
+                color: green;
+            }
+
+            li:nth-child(3) {
+                color: gold;
+            }
+        </style>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+   
+     <!--on top of browser --> 
+     <title>My first app</title>
+
+    <!-- HelloWorld references -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrap">
+        <div id="wrapper">
+
+            <div id="navMenu">
+                <ul>
+                    <li>
+                        <a href="http://">X</a>
+                        <ul>
+                            <li><a href="http://">360°VIDEO</a></li>
+                            <li><a href="http://">360°VIDEO</a></li>
+                            <li><a href="http://">360°VIDEO</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h1>Hi Lynn!! <3 </h1>
+
+        <!--bold and italics -->
+        <p> <strong> this</strong> here's my <em>first</em> paragraph!</p>
+
+        <p>
+            <!--break element -->
+            hi <br /> you <br />
+
+            <!--ul to make a dotted list -->
+            <ul>
+                <li class="emphasis">one </li>
+                
+                <!--id is used to target one element using #id, to target many, use class using .class -->
+                <li id="emphasis"> two </li>
+                <li>three</li>
+
+            </ul>
+
+            <!--ol to make a numbered list -->
+            <ol>
+                <li>one </li>
+                <li class="emphasis">two </li>
+                
+                <!-- to target every 3rd list item, li:nth-child(3) {}  -->
+                <li>three </li>
+            </ol>
+
+            <!--dl to make a definition list, def term, and def details-->
+            <dl>
+                <dt>YoloCrew:</dt>
+                <dd> A definition. </dt>
+            </dl>
+
+            <!-- adding a quote, then style it with ccs -->
+            <blockquote>
+        <p>
+            "How you do anything is how you do everything."
+        </p>
+        </blockquote>
+
+        <!--to target a single word or element use span-->
+        <p>
+            "How you do <span>anything</span> is how you do everything."
+        </p>
+
+        <!-- anchor styling to a link and open it to a blank target -->
+        <p>
+            "How you do <a href="home.html" target="">anything</a> is how you do everything."
+        </p>
+        <!-- Styling an href prior to css-->
+        <a href="index.html" style="color:aquamarine; text-decoration:none;" />
+
+        <!-- adding an img with img src, alt is for just in case the images are turned off and
+            ppl need to know what the image is about-->
+        <img src="http://www.yolocrew.com/wp-content/uploads/2015/11/alienhead1.png" alt="alien img" />
+        <img src="images/Drawing2.png" alt=" powered by edm fans image" />
+
+
+
+
+        </p>
+
+    </div> 
+
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
